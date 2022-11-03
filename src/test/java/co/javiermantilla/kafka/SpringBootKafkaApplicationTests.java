@@ -1,4 +1,4 @@
-package co.javiermantilla.pgp;
+package co.javiermantilla.kafka;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
