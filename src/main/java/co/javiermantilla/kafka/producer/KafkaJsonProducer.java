@@ -4,10 +4,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.kafka.core.KafkaTemplate;
-import org.springframework.messaging.handler.annotation.Payload;
+//import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
+//import com.fasterxml.jackson.databind.ObjectMapper;
 
 import co.javiermantilla.kafka.model.User;
 
@@ -18,7 +18,7 @@ public class KafkaJsonProducer {
 	
 	 private final KafkaTemplate<String, User> kafkaTemplate;
 	 
-	 private ObjectMapper mapper;
+	 //private ObjectMapper mapper;
 	 
 	 public KafkaJsonProducer(@Qualifier("kafkaJsonTemplate") KafkaTemplate<String, User> kafkaTemplate) {
 	        this.kafkaTemplate = kafkaTemplate;

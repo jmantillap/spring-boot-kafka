@@ -10,12 +10,12 @@ public class UserDeserializer implements Deserializer<User> {
 
 	@Override
 	public void close() {
-
+		 throw new UnsupportedOperationException("notImplemented() cannot be performed because ...");
 	}
 
 	@Override
 	public void configure(Map<String, ?> arg0, boolean arg1) {
-
+		throw new UnsupportedOperationException("notImplemented() cannot be performed because ...");
 	}
 
 	@Override
